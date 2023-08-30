@@ -1,0 +1,112 @@
+
+
+.container
+
+{
+  position: absolute;
+  left: 200px;
+  top: 100px;
+  min-width: 1000px;
+  min-height: 400px;
+  margin: 50px auto;
+  background-color: #ffff;
+  border-radius: 15px;
+  border: 1px solid rgb(175, 177, 179);
+  box-sizing: border-box; 
+     
+}
+.headnav{
+  display:flex;
+  font-size: 14px;
+  justify-content:left;
+  
+}
+.all{
+  margin-left: 25px;
+  margin-top: 26px;
+  font-size: 15px;
+  color: rgb(106, 106, 107);
+}
+.active{
+  margin-left: 30px;
+  margin-top: 26px;
+  font-size: 15px;
+  color: rgb(96, 97, 98);
+}
+.draft{
+  margin-left: 30px;
+  margin-top: 26px;
+  font-size: 15px;
+  color: rgb(112, 113, 115);
+}
+.archieve{
+  margin-left: 30px;
+  margin-top: 26px;
+  font-size: 15px;
+  color: rgb(107, 109, 110);
+}
+.border{
+  border: 1px solid rgb(175, 177, 179);
+  margin:0;
+  margin-top: 12px;
+}
+.border2{
+  border: 1px solid rgb(175, 177, 179);
+  margin:0;
+  margin-top: 40px;
+}
+.myInput {
+  
+  width: 300px;
+  font-size: 16px;
+  padding: 10px 12px 5px 40px;
+  border: 1px solid #7f7c7c;
+  margin-top: 35px;
+  margin-bottom: 12px;
+
+}
+.icon{
+  width:18px;
+}
+a:link{
+  text-decoration: none;
+}
+a:hover{
+  color: aqua;
+}
+.input-wrapper{
+  background-color: #ffffff;
+  width:450px;
+  margin-top: 18px;
+  margin-left: 8px;
+  height:2.5rem;
+  padding: 0 15px;
+  box-shadow: 0px 0px  #ddd;
+  border: 1px solid rgb(173, 169, 169);
+}
+input{
+  background-color: transparent;
+  border: none;
+  height:100%;
+  font-size: 1.25rem;
+  margin-left: 5px;
+}
+input:focus{
+  outline:none;
+}
+#icon{
+  color: rgb(99, 100, 100);
+}
+.purchase{
+  position: relative;
+  
+  margin-left: 600px;
+}.m{
+  position: relative;
+  font-size:1rem;
+  left:855px;
+  top:-18px;
+  border:1px solid rgb(182, 179, 179);
+  border-left: none;
+  padding: 10px 12px 10px;
+}
